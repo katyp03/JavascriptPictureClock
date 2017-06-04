@@ -62,6 +62,6 @@ document.addEventListener("DOMContentLoaded", function(){
 			elMinute.innerText = minutes;
 			elHour.innerText = hours;
 
-	},.0001);
+	},1000);
 
 });
